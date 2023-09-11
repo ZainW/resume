@@ -2,7 +2,13 @@ export const info = {
   baseUrl: "https://zainresu.me",
   name: "Zain Wania",
   jobDescription: "Full Stack Developer",
-  about: `and I am a highly skilled Full Stack Web Developer with 8 years of experience. I specialize in utilizing innovative technologies and frameworks such as Vue, Nuxt, Ruby on Rails, and Typescript to develop robust and user-friendly web applications. My expertise extends to cloud platforms like AWS, as well as deployment services like Netlify and Vercel. With a strong background in database management using MySQL and Planetscale, I have successfully delivered scalable and efficient solutions. I am passionate about creating exceptional user experiences and continuously staying updated with the latest industry trends. I am always seeking new opportunities to apply my expertise and contribute to cutting-edge web development projects`,
+  about: `I am a highly skilled Full Stack Web Developer with 8 years of experience.
+
+  I specialize in utilizing innovative technologies and frameworks such as Vue, Nuxt, Ruby on Rails, and Typescript to develop robust and user-friendly web applications.
+  My expertise extends to cloud platforms like AWS, as well as deployment services like Netlify and Vercel.
+  With a strong background in database management using MySQL and Planetscale, I have successfully delivered scalable and efficient solutions.
+  I am passionate about creating exceptional user experiences and continuously staying updated with the latest industry trends.
+  I am always seeking new opportunities to apply my expertise and contribute to cutting-edge web development projects`,
 
   experience: [
     {
