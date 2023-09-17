@@ -13,6 +13,7 @@ export const info = {
   experience: [
     {
       name: "Contactmonkey",
+      title: "Technical Lead",
       location: "Toronto, Ontario, Canada",
       startDate: "Oct 2019",
       endDate: "Present",
@@ -26,6 +27,7 @@ export const info = {
 
     {
       name: "Ample Organics",
+      title: 'Software Developer',
       location: "Toronto, Ontario, Canada",
       startDate: "Jan 2018",
       endDate: "Sep 2019",
@@ -38,6 +40,7 @@ export const info = {
 
     {
       name: "Exact Media",
+      title: "Software Developer",
       location: "Toronto, Ontario, Canada",
       startDate: "Feb 2016",
       endDate: "Apr 2017",
