@@ -81,7 +81,7 @@ export const info = {
     // facebook: "https://www.facebook.com/profile.php?id=100022899849583",
     twitter: "https://twitter.com/Zain_Wania",
     github: "https://github.com/ZainW",
-    email: "zainthegreatcb@gmail.com",
+    email: "zain@wania.dev",
     linkedin: "https://www.linkedin.com/in/zainw/",
   },
 
