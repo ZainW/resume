@@ -13,7 +13,7 @@ export const info = {
   experience: [
     {
       name: "Contactmonkey",
-      title: "Technical Lead",
+      title: "Staff Software Engineer",
       location: "Toronto, Ontario, Canada",
       startDate: "Oct 2019",
       endDate: "Present",
