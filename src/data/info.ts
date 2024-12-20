@@ -8,7 +8,8 @@ export const info = {
   My expertise extends to cloud platforms like AWS, as well as deployment services like Netlify and Vercel.
   With a strong background in database management using MySQL and Planetscale, I have successfully delivered scalable and efficient solutions.
   I am passionate about creating exceptional user experiences and continuously staying updated with the latest industry trends.
-  I am always seeking new opportunities to apply my expertise and contribute to cutting-edge web development projects`,
+  I am always seeking new opportunities to apply my expertise and contribute to cutting-edge web development projects.
+  Recently, I have been intensly interested in zero by rocicorp, a new sync engine for building better webapps`,
 
   experience: [
     {
@@ -22,6 +23,7 @@ export const info = {
         "- Lead the development of numerous features and improvements to the platform.",
         "- Implemented a new design system and component library.",
         "- Implemented a Monorepo structure for the frontend.",
+        "- Run and mentor the frontend team.",
       ],
     },
 
@@ -83,6 +85,7 @@ export const info = {
     github: "https://github.com/ZainW",
     email: "zain@wania.dev",
     linkedin: "https://www.linkedin.com/in/zainw/",
+    bluesky: "https://bsky.app/profile/zainwania.bsky.social" // Add this line
   },
 
   projects: [
@@ -95,3 +98,46 @@ export const info = {
     },
   ],
 };
+
+export const technologies = [
+  {
+    name: 'Nuxt',
+    logo: 'logos:nuxt-icon',
+    description: 'Vue-powered framework enabling SSR, static site generation, and more for building performant web applications.'
+  },
+  {
+    name: 'Vue',
+    logo: 'logos:vue',
+    description: 'Progressive JavaScript framework for building user interfaces with a gentle learning curve and powerful reactivity system.'
+  },
+  {
+    name: 'Tailwind CSS',
+    logo: 'logos:tailwindcss-icon',
+    description: 'Utility-first CSS framework for rapidly building custom user interfaces without leaving your HTML.'
+  },
+  {
+    name: 'Zod',
+    logo: 'logos:zod',
+    description: 'TypeScript-first schema validation with static type inference for building type-safe applications.'
+  },
+  {
+    name: 'PostgreSQL',
+    logo: 'logos:postgresql',
+    description: 'Powerful open-source relational database with robust features for data integrity and complex queries.'
+  },
+  {
+    name: 'SST',
+    logo: 'logos:sst-icon',
+    description: 'Framework for building full-stack serverless applications on AWS with TypeScript.'
+  },
+  {
+    name: 'AWS',
+    logo: 'logos:aws', 
+    description: 'Comprehensive cloud platform offering compute, storage, database and ML services.'
+  },
+  {
+    name: 'Cloudflare',
+    logo: 'logos:cloudflare-icon',
+    description: 'Global cloud network providing CDN, DNS, DDoS protection and edge computing capabilities.'
+  }
+];

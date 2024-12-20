@@ -1,0 +1,18 @@
+---
+interface Props {
+  name: string;
+  logo: string;
+  description: string;
+}
+
+const { name, logo, description } = Astro.props;
+import { Icon } from 'astro-icon/components'
+---
+
+<div class="border dark:border-neutral-700 rounded-lg p-6 hover:border-neutral-400 transition-colors">
+  <div class="flex items-center gap-4 mb-4">
+    <Icon name={logo} class="size-8" />
+    <h3 class="dark:text-light text-dark text-xl font-medium">{name}</h3>
+  </div>
+  <p class="text-neutral-600 dark:text-neutral-400">{description}</p>
+</div>

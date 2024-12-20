@@ -1,0 +1,36 @@
+---
+import Layout from '@layouts/Layout.astro'
+import MetaHead from '@components/general/MetaHead.astro'
+import TechCard from '@components/general/TechCard.astro'
+import {technologies} from '@data'
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <MetaHead 
+      title={'Technologies'} 
+      description={'My favorite web technologies and tools'} 
+      ogImageUrl={'/assets/images/profile.png'} 
+    />
+  </head>
+
+  <body>
+    <Layout>
+      <h1 style="line-height: 1.2;">Favorite Technologies</h1>
+      <section class="my-8">
+        <div class="prose dark:prose-invert">
+          <p class="dark:text-light text-dark">
+            Here are some of my favorite technologies I work with:
+          </p>
+          
+          <div class="grid sm:grid-cols-2 gap-8 mt-8">
+            {technologies.map((tech) => (
+              <TechCard {...tech} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </Layout>
+  </body>
+</html>
