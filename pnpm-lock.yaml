@@ -18,6 +18,9 @@ importers:
       '@astrojs/tailwind':
         specifier: ^5.1.4
         version: 5.1.4(astro@5.1.1(jiti@2.4.2)(rollup@4.23.0)(typescript@5.5.4)(yaml@2.5.1))(tailwindcss@3.4.3)
+      '@iconify-json/octicon':
+        specifier: ^1.2.2
+        version: 1.2.2
       astro:
         specifier: ^5.1.1
         version: 5.1.1(jiti@2.4.2)(rollup@4.23.0)(typescript@5.5.4)(yaml@2.5.1)
@@ -370,6 +373,9 @@ packages:
 
   '@iconify-json/logos@1.2.4':
     resolution: {integrity: sha512-XC4If5D/hbaZvUkTV8iaZuGlQCyG6CNOlaAaJaGa13V5QMYwYjgtKk3vPP8wz3wtTVNVEVk3LRx1fOJz+YnSMw==}
+
+  '@iconify-json/octicon@1.2.2':
+    resolution: {integrity: sha512-qEPkP9DMMay5uILzyaSmVksSMxRw9i2wSDREfB8OK20mPdSadusjLqD/u69GzpFpw6894c+WNmoq7WzN5KAPeg==}
 
   '@iconify/tools@4.1.1':
     resolution: {integrity: sha512-Hybu/HGhv6T8nLQhiG9rKx+ekF7NNpPOEQAy7JRSKht3s3dcFSsPccYzk24Znc9MTxrR6Gak3cg6CPP5dyvS2Q==}
@@ -2636,6 +2642,10 @@ snapshots:
     optional: true
 
   '@iconify-json/logos@1.2.4':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/octicon@1.2.2':
     dependencies:
       '@iconify/types': 2.0.0
 

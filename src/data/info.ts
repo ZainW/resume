@@ -139,5 +139,10 @@ export const technologies = [
     name: 'Cloudflare',
     logo: 'logos:cloudflare-icon',
     description: 'Global cloud network providing CDN, DNS, DDoS protection and edge computing capabilities.'
+  },
+  {
+    name: 'Zero',
+    logo: 'octicon:sync-16',
+    description: 'Sync engine for building better web applications with offline support and conflict resolution.'
   }
 ];
