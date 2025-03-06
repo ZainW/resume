@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.2.1",
-    "@astrojs/tailwind": "^5.1.5",
+    "@astrojs/tailwind": "^6.0.0",
     "@iconify-json/octicon": "^1.2.5",
     "astro": "^5.4.2",
     "astro-icon": "^1.1.5",
