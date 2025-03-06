@@ -12,10 +12,10 @@
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.2.1",
-    "@astrojs/tailwind": "^5.1.4",
-    "@iconify-json/octicon": "^1.2.2",
-    "astro": "^5.1.1",
-    "astro-icon": "^1.1.4",
+    "@astrojs/tailwind": "^5.1.5",
+    "@iconify-json/octicon": "^1.2.5",
+    "astro": "^5.4.2",
+    "astro-icon": "^1.1.5",
     "astro-robots-txt": "^1.0.0"
   },
   "packageManager": "pnpm@9.15.1",

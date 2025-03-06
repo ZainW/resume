@@ -9,10 +9,16 @@ const { name, logo, description } = Astro.props;
 import { Icon } from 'astro-icon/components'
 ---
 
-<div class="border dark:border-neutral-700 rounded-lg p-6 hover:border-neutral-400 transition-colors">
+<div class="border dark:border-neutral-700 rounded-lg p-6 
+  hover:border-neutral-400 
+  transition-all duration-300 ease-in-out
+  hover:scale-[1.02] 
+  hover:shadow-lg dark:hover:shadow-neutral-800
+  hover:bg-neutral-50 dark:hover:bg-neutral-800/50
+  group">
   <div class="flex items-center gap-4 mb-4">
-    <Icon name={logo} class="size-8" />
-    <h3 class="dark:text-light text-dark text-xl font-medium">{name}</h3>
+    <Icon name={logo} class="size-8 group-hover:scale-110 transition-transform duration-300" />
+    <h3 class="dark:text-light text-dark text-xl font-medium group-hover:text-primary-500 transition-colors">{name}</h3>
   </div>
-  <p class="text-neutral-600 dark:text-neutral-400">{description}</p>
+  <p class="text-neutral-600 dark:text-neutral-400 group-hover:text-neutral-800 dark:group-hover:text-neutral-200 transition-colors">{description}</p>
 </div>
