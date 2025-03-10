@@ -18,7 +18,7 @@
     "astro-icon": "^1.1.5",
     "astro-robots-txt": "^1.0.0"
   },
-  "packageManager": "pnpm@9.15.1",
+  "packageManager": "pnpm@9.15.9",
   "dependencies": {
     "@iconify-json/logos": "^1.2.4"
   }
